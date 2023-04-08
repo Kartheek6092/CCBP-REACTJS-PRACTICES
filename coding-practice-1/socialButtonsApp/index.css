@@ -1,0 +1,44 @@
+#root {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Bree Serif;
+}
+.socialCard {
+  align-self: center;
+}
+button {
+  padding: 10px;
+  border-radius: 8px;
+  border-style: none;
+  margin: 8px;
+}
+.like {
+  background-color: #eab308;
+  color: #ffffff;
+}
+.comment {
+  background-color: #ffffff;
+  color: black;
+}
+.share {
+  background-color: #1d4ed8;
+  color: #ffffff;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 0;
+}
+
+@media (min-width: 768px) {
+  .buttons {
+    flex-direction: row;
+  }
+}
