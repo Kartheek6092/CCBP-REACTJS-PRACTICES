@@ -1,0 +1,55 @@
+/* Write your code here. */
+body {
+  box-sizing: border-box;
+}
+#root {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  background-color: #0f172a;
+}
+.teams {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  color: white;
+  text-align: center;
+}
+
+.teams {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  color: white;
+  text-align: center;
+}
+
+img {
+  width: 20vw;
+  height: 10vh;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 25px;
+  }
+  img {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}
