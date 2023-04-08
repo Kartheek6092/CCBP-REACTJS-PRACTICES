@@ -1,0 +1,52 @@
+/* Write your code here. */
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+}
+.boxContainer {
+  align-self: center;
+  text-align: center;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 0;
+  margin: 10px;
+  align-self: center;
+}
+.boxes {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-shrink: 0;
+}
+.small {
+  width: 100px;
+  height: 100px;
+  background-color: #fbbf24;
+}
+.medium {
+  width: 180px;
+  height: 180px;
+  background-color: #38bdf8;
+}
+.large {
+  width: 350px;
+  height: 350px;
+  background-color: #ec4899;
+}
+@media (min-width: 768px) {
+  .boxes {
+    flex-direction: row;
+  }
+  .box {
+    align-self: flex-end;
+  }
+}
