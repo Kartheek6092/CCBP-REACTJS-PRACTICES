@@ -1,0 +1,55 @@
+/* Write your CSS here */
+
+.container {
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.counterContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+}
+img {
+  width: 60vw;
+  height: 40vh;
+}
+.speedStatus {
+  font-size: 35px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 20vw;
+  align-self: center;
+}
+.acceleratebtn {
+  background-color: #0b69ff;
+  border-style: none;
+}
+.breakbtn {
+  background-color: transparent;
+  border-style: none;
+  border: 2px solid #94a3b8;
+}
+button {
+  border-radius: 8px;
+  padding: 8px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  img {
+    width: 80vw;
+    height: 25vh;
+  }
+}
+.speedStatus1 {
+  display: none;
+}
