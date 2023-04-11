@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  background-color: #ffd569;
+}
+
+.fruitContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  border-radius: 15px;
+  text-align: center;
+  padding: 5%;
+}
+
+.fruits {
+  display: flex;
+}
+
+img {
+  width: 25vw;
+  height: 40vh;
+}
+.mangos,
+.bananas {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  width: 100px;
+  padding: 7px;
+  background-color: #007bff;
+  border-style: none;
+  border-radius: 7px;
+  color: white;
+  align-self: center;
+  margin: 10px;
+  cursor: point;
+}
+span {
+  color: #ffd569;
+}
+
+@media (max-width: 767px) {
+  .fruits {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    width: 30vw;
+    height: 25vh;
+  }
+}
