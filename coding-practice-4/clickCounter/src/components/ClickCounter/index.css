@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.container {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  color: #2d3a35;
+}
+
+.counterContainer {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+}
+button {
+  width: 100px;
+  padding: 5px;
+  background-color: #007bff;
+  color: white;
+  align-self: center;
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+}
+span {
+  color: #c20a72;
+}
+
+@media (min-width: 768px) {
+  .counterContainer {
+    width: 70vw;
+  }
+}
