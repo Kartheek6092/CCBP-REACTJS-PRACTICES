@@ -1,0 +1,46 @@
+/* Write your CSS here */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  color: #0f172a;
+}
+
+.EvenOddContainer {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  padding: 3%;
+  border-radius: 18px;
+  width: 80vw;
+}
+h1 {
+  font-size: 50px;
+}
+
+.countType {
+  font-size: 35px;
+  color: #334155;
+}
+
+button {
+  width: 120px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: white;
+  align-self: center;
+}
+p {
+  color: #334155;
+}
+
+@media (max-width: 767px) {
+  .EvenOddContainer {
+    width: 100vw;
+  }
+}
