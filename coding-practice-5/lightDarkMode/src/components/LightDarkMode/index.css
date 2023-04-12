@@ -1,0 +1,42 @@
+/* Write your CSS here */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.darkContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-color: black;
+  padding: 5%;
+  border-radius: 20px;
+  color: white;
+}
+.lightbtn {
+  width: 100px;
+  padding: 5px;
+  border-radius: 8px;
+  align-self: center;
+}
+
+.lightContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-color: white;
+  padding: 5%;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.darkbtn {
+  width: 100px;
+  padding: 5px;
+  border-radius: 8px;
+  align-self: center;
+  background-color: black;
+  color: white;
+}
