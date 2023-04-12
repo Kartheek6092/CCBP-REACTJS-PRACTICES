@@ -1,0 +1,23 @@
+/* Write your CSS here */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.loginCard {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 5%;
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  border-radius: 15px;
+  color: white;
+}
+button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  align-self: center;
+}
