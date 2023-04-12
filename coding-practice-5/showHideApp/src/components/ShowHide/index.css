@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+}
+
+#heading {
+  font-size: 45px;
+}
+
+.SHcontainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  color: white;
+  text-align: center;
+  align-self: center;
+}
+
+.SHbuttons {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 200px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border-style: none;
+  color: #dd1264;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.nameContainer {
+  text-align: center;
+  color: black;
+  width: 20vw;
+  height: 15vh;
+  padding: 15px;
+  background-color: #fddddb;
+  border-radius: 15px;
+  margin: 10px;
+  align-self: center;
+}
+
+@media (max-width: 767px) {
+  .firstName,
+  .lastName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .nameContainer {
+    display: flex;
+    align-self: center;
+  }
+  .SHbuttons {
+    flex-direction: column;
+  }
+}
