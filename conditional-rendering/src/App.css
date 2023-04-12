@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  padding: 0;
+  color: #333333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #246bec;
+  border: 1px solid #246bec;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 8px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.text-blue {
+  color: blue;
+}
