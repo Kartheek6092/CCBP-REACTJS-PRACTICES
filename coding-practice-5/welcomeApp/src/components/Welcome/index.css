@@ -1,0 +1,40 @@
+/* Write your CSS here */
+
+.container {
+  font-family: Bree serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #1e293b;
+  color: white;
+}
+.welContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+h1 {
+  font-size: 80px;
+  color: #f0bb03;
+}
+p {
+  font-size: 40px;
+}
+button {
+  font-family: Bree serif;
+  width: 150px;
+  padding: 8px;
+  background-color: white;
+  border-radius: 15px;
+  font-weight: 700;
+  align-self: center;
+}
+@media (max-width: 767px) {
+  .welContainer {
+    width: 100vw;
+    flex-shrink: 0;
+  }
+}
