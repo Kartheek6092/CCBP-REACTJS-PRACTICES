@@ -1,0 +1,16 @@
+/* Write your CSS here */
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.deleteBtn {
+  color: #ff0b37;
+  background-color: transparent;
+  border: 2px solid #ff0b37;
+  border-radius: 10px;
+  padding: 8px;
+  width: 100px;
+}
