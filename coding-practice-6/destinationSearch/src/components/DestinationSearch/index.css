@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+  font-family: Roboto;
+}
+
+input {
+  width: 13vw;
+  background-color: #f1f5f9;
+  border-style: none;
+  outline: none;
+  font-family: Open Sans;
+}
+
+.searchbar-container {
+  background-color: #f1f5f9;
+  box-shadow: 3px 3px 3px 3px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 25px;
+  padding: 2px;
+  width: 15vw;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .cardsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
