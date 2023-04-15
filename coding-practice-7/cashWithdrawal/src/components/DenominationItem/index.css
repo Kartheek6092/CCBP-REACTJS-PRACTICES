@@ -1,0 +1,12 @@
+.denominationBtn {
+  color: white;
+  background-color: #585076;
+  border: 2px solid #d4d2db;
+  padding: 7px;
+  width: 15vw;
+  margin: 10px;
+  border-radius: 5px;
+}
+li {
+  list-style: none;
+}

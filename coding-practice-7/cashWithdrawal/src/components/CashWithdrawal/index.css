@@ -1,0 +1,82 @@
+.container {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+}
+
+.withdrawalContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 3%;
+  background-color: #150b3e;
+  border-radius: 15px;
+  color: white;
+  max-width: 50vw;
+}
+
+.candidateProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profileStartLetter {
+  font-size: 15px;
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  border-radius: 50%;
+  padding: 20px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+}
+.candidateProfile p {
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.candidateProfile b {
+  align-self: center;
+}
+
+.yourBalance {
+  display: flex;
+  color: #585076;
+  justify-content: space-between;
+}
+#urBalance {
+  font-size: 25px;
+}
+#amount-display {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+#withdrawText {
+  font-size: 30px;
+  color: white;
+}
+.withdrawal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.withdrawal p {
+  color: #585076;
+}
+.denominationItems {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .withdrawalContainer {
+    width: 90vw;
+  }
+}
