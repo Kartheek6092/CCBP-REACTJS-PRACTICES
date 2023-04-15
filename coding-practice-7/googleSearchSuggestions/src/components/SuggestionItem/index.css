@@ -1,0 +1,13 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  color: #64748b;
+}
+li button {
+  border-style: none;
+  background-color: transparent;
+}
+li button img {
+  width: 20px;
+  height: 20px;
+}
