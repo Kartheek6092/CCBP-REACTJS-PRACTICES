@@ -1,0 +1,79 @@
+.main-con {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.bg-container {
+  background-color: #3367d6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 10vh;
+}
+.flex-con {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-con {
+  margin-right: auto;
+}
+.logo {
+  height: 45px;
+  width: 120px;
+}
+.search-con {
+  display: flex;
+  padding: 10px;
+}
+.search-icon {
+  background-color: #2850a7;
+  border: 1px solid lightcyan;
+}
+.search1 {
+  width: 30px;
+}
+.search-box {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.search-box input {
+  outline: none;
+  height: 100%;
+  border-style: none;
+  border: 1px solid lightcyan;
+  background-color: #2850a7;
+}
+.list-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.ul-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 12px;
+  box-shadow: 1px 1px 5px 3px whitesmoke;
+}
+.no-item {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.searchBar {
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  margin-left: 5px;
+}

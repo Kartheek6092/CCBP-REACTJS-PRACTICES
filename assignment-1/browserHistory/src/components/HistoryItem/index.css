@@ -1,0 +1,52 @@
+.item-con {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 7px;
+}
+.item-in-list {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  background-color: transparent;
+  border-style: none;
+  align-self: flex-end;
+}
+.time {
+  width: 10%;
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-right: 5px;
+}
+.logo-icon {
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+}
+.head {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-right: 5px;
+  max-width: 300px;
+  align-self: center;
+}
+.domain {
+  color: grey;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-right: 5px;
+  align-self: center;
+}
+.del-icon {
+  height: 30px;
+  width: 30px;
+}
+.site-details {
+  width: 50%;
+  display: flex;
+}
