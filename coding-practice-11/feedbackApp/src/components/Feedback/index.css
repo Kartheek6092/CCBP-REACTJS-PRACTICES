@@ -1,0 +1,46 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+}
+
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-self: center;
+  align-items: center;
+  width: 75vw;
+  padding: 5%;
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.emoji-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+}
+img {
+  width: 50%;
+  height: 65%;
+}
+.luvEmoji {
+  width: 10%;
+  height: 10%;
+}
+
+@media (max-width: 767px) {
+  .feedback-container {
+    width: 90vw;
+  }
+}
