@@ -1,0 +1,30 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.image-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 0px;
+}
+.selected-image {
+  width: 65vw;
+  height: 65vh;
+  border-radius: 20px;
+}
+
+@media (max-width: 767px) {
+  .selected-image {
+    width: 95vw;
+  }
+}
