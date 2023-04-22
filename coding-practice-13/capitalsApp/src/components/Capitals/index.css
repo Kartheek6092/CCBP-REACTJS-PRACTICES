@@ -1,0 +1,39 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  background-color: #93c5fd;
+}
+
+.capitals-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 15px;
+  padding: 5%;
+  width: 60vw;
+}
+h1 {
+  color: #000000;
+}
+.country-container {
+  color: #1e293b;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+select {
+  padding: 5px;
+  border-style: 1px solid #cbd2d9;
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .capitals-container {
+    width: 97vw;
+  }
+}
