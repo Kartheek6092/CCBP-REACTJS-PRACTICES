@@ -1,0 +1,25 @@
+/* Write your code here. */
+/* body {
+  box-sizing: border-box;
+}
+
+.teams {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  background-color: #0f172a;
+}
+img {
+  width: 150px;
+  height: 150px;
+} */
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
