@@ -1,0 +1,19 @@
+li {
+  list-style: none;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.app {
+  border-style: none;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.app img {
+  width: 100px;
+  height: 100px;
+}
