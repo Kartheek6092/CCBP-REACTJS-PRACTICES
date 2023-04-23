@@ -1,0 +1,39 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  text-align: center;
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  width: 70vw;
+}
+button {
+  background-color: transparent;
+  border-style: none;
+  width: 30px;
+  height: 30px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: space-around;
+  width: 50vw;
+  align-self: center;
+}
+
+.arrow {
+  width: 25px;
+  height: 25px;
+}
+@media (max-width: 767px) {
+  .reviews {
+    width: 90vw;
+  }
+}
