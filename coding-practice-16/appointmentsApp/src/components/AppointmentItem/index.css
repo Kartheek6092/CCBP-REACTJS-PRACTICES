@@ -1,0 +1,28 @@
+.appointment-item {
+  list-style: none;
+  padding: 0px 10px 0px 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 28%;
+  border: 2px solid #bfbfbf;
+  margin: 5px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title p {
+  font-size: 25px;
+  font-weight: 800;
+}
+.star-btn {
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  border-style: none;
+  align-self: center;
+}
