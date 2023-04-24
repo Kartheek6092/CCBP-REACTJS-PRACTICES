@@ -1,0 +1,84 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.comment-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 6px 4px 0px #bfbfbf;
+  padding: 2%;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.nameAndComment {
+  display: flex;
+}
+
+.profile-letter {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  align-items: center;
+  font-weight: 800;
+  font-size: 22px;
+  margin-right: 10px;
+}
+.action-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.like-btn {
+  color: #0ea5e9;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+
+.del-btn {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+
+.posted-time {
+  color: #64748b;
+  align-self: flex-start;
+}
+.name-and-time h1 {
+  margin: 10px;
+}
+
+.name-and-time {
+  display: flex;
+  justify-content: space-evenly;
+}
