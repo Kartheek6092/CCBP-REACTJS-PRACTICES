@@ -1,0 +1,33 @@
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 10px 5% 10px 5%;
+  background-color: #9796f0;
+  color: white;
+}
+
+.emoji-game-container {
+  min-height: 90vh;
+  width: relative;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+}
+
+.emoji-cards-container {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  width: 75vw;
+  height: 100vw;
+}
+
+.emoji-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  justify-content: center;
+  height: 100%;
+  padding: 0px 15% 0px 15%;
+}

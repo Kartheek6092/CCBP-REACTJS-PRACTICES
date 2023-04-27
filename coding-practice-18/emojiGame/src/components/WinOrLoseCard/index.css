@@ -1,0 +1,46 @@
+.lose-container,
+.win-container {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding: 0px 15% 0px 15%;
+  width: 60vw;
+  text-align: center;
+  margin-top: 15%;
+  padding: 3%;
+  background-color: #ffffff33;
+  border-radius: 25px;
+  border: 2px solid #ffffff30;
+  color: #ffffff;
+}
+.result-img {
+  width: relative;
+  height: 50vh;
+}
+
+.game-result-container {
+  align-self: center;
+}
+.game-result-container h1 {
+  font-size: 45px;
+}
+
+.res-text {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.score {
+  font-size: 45px;
+  color: #6a59ff;
+  font-weight: 700;
+}
+
+.playAgain-btn {
+  background-color: #ffce27;
+  border-style: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 120px;
+  font-weight: 700;
+}
