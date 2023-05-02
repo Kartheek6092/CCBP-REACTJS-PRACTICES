@@ -31,6 +31,8 @@ class EmojiGame extends Component {
 
   onEmojiClick = id => {
     const {clickedEmojiIds} = this.state
+    // console.log(clickedEmojiIds)
+    // console.log(score)
     if (clickedEmojiIds.includes(id)) {
       this.setState({
         isDoubleClicked: true,
@@ -39,6 +41,7 @@ class EmojiGame extends Component {
       this.setState(prevState => ({
         clickedEmojiIds: [...prevState.clickedEmojiIds, id],
         score: prevState.score + 1,
+        isDoubleClicked: prevState.score === 11,
         isWin: prevState.score === 11,
       }))
     }
@@ -65,7 +68,7 @@ class EmojiGame extends Component {
     return (
       <div className="container">
         <nav className="head-container">
-          <NavBar score={score} topScore={topScore} />
+          <NavBar score={score} isWin={isWin} topScore={topScore} />
         </nav>
         <div className="emoji-game-container">
           {!isDoubleClicked ? (
