@@ -119,6 +119,7 @@ class MoneyManager extends Component {
         }
         return item
       }),
+      type: 'Income',
     }))
   }
 
@@ -217,7 +218,7 @@ class MoneyManager extends Component {
               <label htmlFor="type">TYPE</label>
               <br />
               <select id="type" onChange={this.onOptionChange} value={type}>
-                <option value={transactionTypeOptions[0].optionId}>
+                <option value={transactionTypeOptions[0].optionId} selected>
                   {transactionTypeOptions[0].displayText}
                 </option>
                 <option value={transactionTypeOptions[1].optionId}>
