@@ -13,8 +13,7 @@ const MoneyDetails = props => {
             {moneyDetailsList[0].type}
           </p>
           <div className="d-amount">
-            {'Rs '}
-            <p data-testid="balanceAmount">{moneyDetailsList[0].amount}</p>
+            <p data-testid="balanceAmount">Rs {moneyDetailsList[0].amount}</p>
           </div>
         </div>
       </div>
@@ -26,8 +25,7 @@ const MoneyDetails = props => {
             {moneyDetailsList[1].type}
           </p>
           <div className="d-amount">
-            {'Rs '}
-            <p data-testid="incomeAmount">{moneyDetailsList[1].amount}</p>
+            <p data-testid="incomeAmount">Rs {moneyDetailsList[1].amount}</p>
           </div>
         </div>
       </div>
@@ -40,8 +38,7 @@ const MoneyDetails = props => {
             {moneyDetailsList[2].type}
           </p>
           <div className="d-amount">
-            {'Rs '}
-            <p data-testid="expensesAmount">{moneyDetailsList[2].amount}</p>
+            <p data-testid="expensesAmount">Rs {moneyDetailsList[2].amount}</p>
           </div>
         </div>
       </div>
