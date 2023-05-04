@@ -68,7 +68,7 @@ class EmojiGame extends Component {
     return (
       <div className="container">
         <nav className="head-container">
-          <NavBar score={score} isWin={isWin} topScore={topScore} />
+          <NavBar score={score} isDoubleClicked={isDoubleClicked} isWin={isWin} topScore={topScore} />
         </nav>
         <div className="emoji-game-container">
           {!isDoubleClicked ? (
