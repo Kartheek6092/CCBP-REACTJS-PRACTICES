@@ -11,7 +11,7 @@ const TransactionItem = props => {
   return (
     <li className="transaction-item">
       <p>{title}</p>
-      <p>{amount}</p>
+      <p>Rs {amount}</p>
       <p>{type[0] + type.slice(1, type.length).toLowerCase()}</p>
       <button
         type="button"
