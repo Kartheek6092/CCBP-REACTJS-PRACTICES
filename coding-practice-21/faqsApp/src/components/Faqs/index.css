@@ -1,0 +1,27 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  background-color: #f1f5f8;
+}
+
+.faqs-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border-radius: 15px;
+  background-color: #ffffff;
+  height: 97%;
+  padding: 5%;
+  border: 2px solid #e4e7eb;
+}
+
+h1 {
+  text-align: center;
+  color: #cb8805;
+  font-size: 55px;
+  font-weight: 800;
+}

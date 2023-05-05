@@ -1,0 +1,26 @@
+li {
+  list-style: none;
+  padding: 3%;
+  border-radius: 15px;
+  margin: 10px;
+  border: 2px solid #d7dae6;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question h1 {
+  font-size: medium;
+  color: #52606d;
+}
+.answer {
+  color: #9aa5b1;
+}
+
+button {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
