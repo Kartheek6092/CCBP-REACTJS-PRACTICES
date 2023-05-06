@@ -1,0 +1,68 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  border-bottom: 2px solid #c3caea;
+  padding: 2%;
+}
+
+nav h1 {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 2px;
+  padding: 2px;
+  height: 30px;
+  align-self: center;
+}
+
+.search-bar input {
+  border-style: none;
+  outline: none;
+  height: 100%;
+  border-left: 2px solid #c3caea;
+  padding: 2px;
+}
+.passwords-counter {
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  padding: 0px 8px;
+  margin-left: 5px;
+}
+
+.show-or-not-passwords {
+  display: flex;
+  color: #ffffff;
+  justify-content: flex-end;
+  margin: 10px 0px;
+}
+
+.passwords-list {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.no-passwords {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  color: #ffffff;
+}
+.no-passwords img {
+  width: 30vw;
+  height: 40vh;
+}
+
+@media (max-width: 767px) {
+  nav h1 {
+    font-size: medium;
+  }
+}
