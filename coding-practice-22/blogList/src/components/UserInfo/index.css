@@ -1,0 +1,15 @@
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.user-profile p {
+  color: #9aa5b1;
+}
