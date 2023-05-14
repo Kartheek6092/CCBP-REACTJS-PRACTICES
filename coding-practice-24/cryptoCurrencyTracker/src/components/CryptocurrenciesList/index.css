@@ -1,0 +1,33 @@
+.currencies-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 95%;
+  height: fit-content;
+  border: 5px solid #00e7ff;
+  border-radius: 10px;
+  color: white;
+  padding: 0px;
+}
+
+.main-img {
+  width: 100%;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+  font-weight: 700;
+  background-color: #092e33;
+  padding: 2%;
+}
+
+.value-types {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+  font-weight: 700;
+}

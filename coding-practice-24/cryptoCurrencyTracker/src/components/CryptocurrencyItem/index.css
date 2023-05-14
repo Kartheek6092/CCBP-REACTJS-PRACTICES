@@ -1,0 +1,25 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  width: 100%;
+}
+
+.currency-type {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+
+img {
+  width: 20%;
+  height: 20%;
+  margin-right: 10%;
+}
+
+.values {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
