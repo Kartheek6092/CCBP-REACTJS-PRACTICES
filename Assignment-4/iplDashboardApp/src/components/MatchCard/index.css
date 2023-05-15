@@ -1,0 +1,52 @@
+.match-container {
+  width: 100%;
+  border-radius: 13px;
+  background-color: #0f172a;
+  padding: 2%;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  width: 30%;
+  height: 60vh;
+  margin: 1% 0px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.won-status {
+  font-weight: 800;
+  font-size: x-large;
+  color: #18ed66;
+}
+
+.lost-status {
+  font-weight: 800;
+  font-size: x-large;
+  color: #e31a1a;
+}
+
+.competing-team {
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+
+@media (max-width: 767px) {
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  .competing-team {
+    font-size: large;
+    font-weight: 700;
+  }
+  .result {
+    font-size: smaller;
+  }
+}

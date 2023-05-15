@@ -1,0 +1,45 @@
+.match-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+  border-radius: 13px;
+  background-color: #0f172a;
+  color: #ffffff;
+  height: 50vh;
+  width: 100%;
+}
+
+.match-details {
+  text-align: right;
+  width: 30%;
+}
+
+.opponent-team-details {
+  width: 30%;
+}
+
+.team-logo {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
+
+.competing-team {
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+
+@media (max-width: 767px) {
+  .competing-team {
+    font-size: smaller;
+    font-weight: 600;
+  }
+  .opponent-team-details,
+  .match-details {
+    font-size: x-small;
+    width: 40%;
+  }
+}
