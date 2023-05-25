@@ -1,0 +1,45 @@
+.similar-product-item {
+  width: 33%;
+  padding: 2%;
+}
+
+.similar-product-image {
+  width: 100%;
+  height: fit-content;
+  border-radius: 5%;
+}
+
+.title {
+  font-weight: 700;
+  color: #1e293b;
+}
+
+#brand {
+  color: #616e7c;
+  font-weight: 700;
+}
+
+.rating-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#price {
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.rating {
+  padding: 5px;
+  background-color: #3b82f6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star {
+  width: 50%;
+  height: fit-content;
+}
