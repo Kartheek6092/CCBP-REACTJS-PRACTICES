@@ -1,0 +1,28 @@
+.project-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.duration-container {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: fit-content;
+}
+
+.project-url-text {
+  text-decoration: none;
+  font-size: large;
+  font-weight: 800;
+  color: #0967d2;
+}

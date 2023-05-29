@@ -1,0 +1,24 @@
+.taglist-container {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.tag {
+  padding: 0px 5px;
+  border-radius: 5px;
+  background-color: silver;
+  margin: 2px;
+  height: fit-content;
+}
+
+.taglist-text {
+  padding: 0px;
+}
+
+.course-title-container {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,21 @@
+.timeline-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading1 {
+  color: #171f46;
+  text-align: center;
+}
+
+.heading2 {
+  color: #2b237c;
+}
+
+.chrono-container {
+  width: 80%;
+  height: fit-content;
+}
