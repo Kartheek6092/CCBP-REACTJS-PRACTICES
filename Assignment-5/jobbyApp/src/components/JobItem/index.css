@@ -1,0 +1,60 @@
+li {
+  list-style: none;
+  background-color: #202020;
+  width: 100%;
+  padding: 4%;
+  border-radius: 20px;
+  margin-bottom: 2%;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 5%;
+  height: fit-content;
+  margin-right: 2%;
+}
+
+.link-component {
+  text-decoration: none;
+  color: #ffffff;
+  width: 100%;
+}
+
+.rating-icon {
+  color: #fbbf24;
+}
+
+.company-title {
+  width: fit-content;
+  font-size: x-large;
+}
+
+.job-key-aspects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.package {
+  text-align: right;
+}
+
+.locationAndJobType {
+  display: flex;
+  min-width: 25%;
+  align-items: center;
+}
+
+hr {
+  color: #cbd5e1;
+}
+
+.description {
+  width: 100%;
+  text-align: justify;
+}

@@ -1,0 +1,162 @@
+.jd-bg-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000;
+  align-items: center;
+  padding: 5%;
+}
+
+.job-details-container {
+  width: 90%;
+  height: fit-content;
+  background-color: #202020;
+  padding: 3%;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+.similarJobs-container {
+  width: 90%;
+  height: fit-content;
+  border-radius: 20px;
+  color: #ffffff;
+  margin-top: 2%;
+}
+
+.company-logo-headers {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 5%;
+  height: 5%;
+  margin-right: 2%;
+}
+.star-icon {
+  color: #fbbf24;
+}
+
+.key-aspects {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.location-employment-type {
+  display: flex;
+  min-width: 20%;
+  align-items: center;
+}
+
+.briefcase-icon,
+.location-icon {
+  min-width: 10%;
+  height: fit-content;
+  align-self: center;
+}
+
+.package {
+  text-align: right;
+}
+
+.description {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.visit-page {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.description-content {
+  text-align: justify;
+  width: 100%;
+}
+
+.skills-list {
+  padding-left: 0px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 0px;
+}
+
+.skill-logo {
+  width: 50px;
+  height: fit-content;
+  margin-right: 2%;
+}
+
+.company-life-description {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.description-content {
+  width: 60%;
+  text-align: justify;
+}
+
+.lifeatcompany-img {
+  width: 35%;
+  height: fit-content;
+}
+
+.similarJobs-list {
+  padding-left: 0px;
+  display: flex;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+  color: #ffffff;
+}
+
+.failure-view {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-heading {
+  color: #ffffff;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.failure-context {
+  color: #cbd5e1;
+}
+
+.failure-btn {
+  padding: 10px;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border-radius: 3px;
+  width: 100px;
+  outline: none;
+  cursor: pointer;
+  border-style: none;
+}
