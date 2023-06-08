@@ -1,0 +1,9 @@
+.layout-container {
+  width: 90%;
+  height: fit-content;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,16 @@
+.config-controller-container {
+  width: 100vw;
+  height: fit-content;
+  padding: 2% 5%;
+  display: flex;
+  flex-direction: column;
+  background-color: #475569;
+  color: #ffffff;
+}
+
+.control-options {
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

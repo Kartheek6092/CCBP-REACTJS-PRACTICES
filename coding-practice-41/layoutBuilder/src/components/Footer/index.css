@@ -1,0 +1,9 @@
+.footer-container {
+  width: 80vw;
+  background-color: #cbd5e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+}
