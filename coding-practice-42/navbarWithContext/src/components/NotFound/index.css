@@ -1,0 +1,34 @@
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.image {
+  width: 200px;
+  height: 200px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 70px;
+
+  font-weight: 800;
+  margin-top: 0px;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+.light {
+  color: #f8fafc;
+}
+.dark {
+  color: #000000;
+}
+.bg-dark {
+  background-color: #000000;
+}
+.bg-light {
+  background-color: #ffffff;
+}

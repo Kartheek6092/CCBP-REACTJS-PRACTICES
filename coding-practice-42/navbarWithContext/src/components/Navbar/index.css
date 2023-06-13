@@ -1,0 +1,45 @@
+.website-logo {
+  width: 80px;
+}
+.nav-container {
+  padding: 10px 20px 10px 20px;
+  border-bottom: 1px solid #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-elements-container {
+  display: flex;
+}
+.nav-element {
+  font-family: 'Roboto';
+  font-size: 16px;
+
+  font-weight: 600;
+  margin-left: 20px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.theme {
+  width: 50px;
+}
+.DarkTheme {
+  background-color: #000000;
+}
+.LightTheme {
+  background-color: #ffffff;
+}
+.light-theme-text {
+  color: #000000;
+}
+.dark-theme-text {
+  color: #ffffff;
+}
+.dark-theme {
+  background-color: #000000;
+  border: none;
+}
+.light-theme {
+  background-color: #ffffff;
+  border: none;
+}
