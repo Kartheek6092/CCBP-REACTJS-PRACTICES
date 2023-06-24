@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-side-container {
+  width: 35vw;
+  height: 100vh;
+  background-color: #131213;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.right-side-container {
+  width: 65vw;
+  background-color: #000000;
+  padding: 10px;
+}
+
+.heading {
+  color: #f3aa4e;
+  font-family: Roboto;
+  font-size: 26px;
+}
+
+.task-input-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px;
+}
+
+.tags-label {
+  color: #ffffff;
+  align-self: flex-start;
+}
+
+.task-label {
+  color: #ffffff;
+  align-self: flex-start;
+}
+
+.tags-input {
+  height: 30px;
+  align-self: stretch;
+}
+.task-input {
+  height: 30px;
+
+  align-self: stretch;
+}
+
+.tags-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-left: 40px;
+  width: 100%;
+}
+
+.task-heading {
+  color: #ffffff;
+}
+
+.submit-button {
+  margin-top: 20px;
+  background-color: #f3aa4e;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-family: Robot;
+  font-size: 12px;
+}
+
+.tags-heading {
+  color: #ffffff;
+}
+
+.task-container {
+  margin-left: -30px;
+}
+
+.no-task-text {
+  font-family: Roboto;
+  font-size: 28px;
+  color: #ffffff;
+}
+@media screen and (min-width: 992px) {
+  .heading {
+    font-size: 42px;
+  }
+  .task-input-form {
+    padding: 60px;
+  }
+  .task-input {
+    height: 35px;
+  }
+  .tags-input {
+    height: 35px;
+  }
+  .submit-button {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,26 @@
+.task-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #131213;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.task-text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 22px;
+}
+
+.task-button {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
