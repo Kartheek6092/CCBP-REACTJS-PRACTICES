@@ -1,0 +1,59 @@
+.home-container,
+.loader {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10%;
+}
+
+.courses-list {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+.course-item {
+  width: 20%;
+  padding: 2%;
+  text-decoration: none;
+  color: #000000;
+}
+
+.course-logo {
+  width: 40%;
+  height: fit-content;
+  margin-right: 5%;
+}
+
+.failure-container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.loader {
+  align-items: center;
+}
+
+.retry-btn {
+  padding: 10px;
+  border-style: none;
+  width: 10%;
+  background-color: #4656a1;
+  color: #ffffff;
+  border-radius: 10px;
+  outline: none;
+}

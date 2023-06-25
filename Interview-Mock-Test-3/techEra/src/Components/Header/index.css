@@ -1,0 +1,11 @@
+.header {
+  width: 100vw;
+  height: 10vh;
+  padding: 1% 5%;
+  background-color: #f1f5f9;
+}
+
+.logo {
+  height: 100%;
+  width: fit-content;
+}
