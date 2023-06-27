@@ -1,0 +1,52 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #25262c;
+}
+
+.editor-container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  background-color: #000000;
+  padding: 2%;
+}
+
+.head-img {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.editor {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  background-color: #25262c;
+  color: #ffffff;
+}
+
+.edit-tools-container {
+  width: 100%;
+  height: 10%;
+  padding: 2%;
+  display: flex;
+  border-bottom: 1px solid #334155;
+  background-color: #25262c;
+}
+
+.tools-list {
+  padding-left: 0px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
