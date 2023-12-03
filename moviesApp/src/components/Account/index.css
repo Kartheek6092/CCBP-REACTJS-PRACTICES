@@ -1,0 +1,56 @@
+.account-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #131313;
+}
+
+.account-details {
+  width: 100%;
+  height: 60vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 10%;
+  text-align: left;
+}
+
+hr {
+  color: #9fb9c9;
+  border: 2px solid #d7dfe4;
+}
+.membership-details,
+.plan {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.name-password {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.plan {
+  align-items: center;
+  display: flex;
+}
+
+.premium-type {
+  border: 2px solid #000000;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.logout-btn {
+  margin: auto;
+  padding: 10px 15px;
+  background-color: red;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+}

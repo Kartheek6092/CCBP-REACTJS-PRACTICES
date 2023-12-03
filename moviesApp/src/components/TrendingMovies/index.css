@@ -1,0 +1,17 @@
+.video-poster {
+  width: fit-content;
+  height: 100%;
+  border-radius: 10px;
+  margin: 1%;
+}
+.react-slider {
+  height: fit-content;
+  background-color: #000000;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .movie-item-container {
+  width: 100px;
+} */

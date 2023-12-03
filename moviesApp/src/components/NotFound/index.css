@@ -1,0 +1,29 @@
+.notFound-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-image: url('https://res.cloudinary.com/dzjuhiwxw/image/upload/v1690307982/Netflix%20clone/BadPath/snow-removal-machine-working-high-ski-slope-snowstorm_454047-2149_1_wg4ptd.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.not-found-heading {
+  font-size: 60px;
+}
+
+.not-found-descriptions {
+  font-size: 20px;
+}
+
+.goHomeBtn {
+  padding: 10px;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 10vw;
+}

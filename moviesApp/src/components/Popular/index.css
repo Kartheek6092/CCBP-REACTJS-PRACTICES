@@ -1,0 +1,67 @@
+.popular-movies-page {
+  width: auto;
+  min-height: 100vh;
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+}
+
+.popular-movies-list {
+  width: 100%;
+  height: fit-content;
+  padding-left: 0px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2% 10%;
+  column-gap: 2%;
+}
+
+.movie-item {
+  width: 23%;
+  height: fit-content;
+  margin-bottom: 2%;
+}
+
+.movie-poster {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.loader-contnr {
+  height: 80vh;
+}
+
+.failure-container {
+  width: 80vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #131313;
+  margin: auto;
+  padding: 2%;
+  color: #fff;
+}
+
+.api-failure-text {
+  font-size: xx-large;
+}
+
+.popular-retry-btn {
+  border-style: none;
+  outline: none;
+  padding: 10px 20px;
+  background-color: #fff;
+  cursor: pointer;
+  color: #000;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.popular-loader {
+  height: 60vh;
+  width: 100%;
+}
